@@ -40,18 +40,52 @@ body {
 
 }
 
-.navbar-header button.navbar-toggle {
+/*** Style the icon-bar in mobile view with x animation***/
+.navbar-default .navbar-toggle {
   clear:  both;
   margin-top: -58px;
   border: none;
+  background: transparent !important;
 }
 
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #605d5d;
-    width: 33px;
-    margin-bottom: 10px;
+
+.navbar-toggle .icon-bar {
+  background-color: #605d5d;
+  width: 44px;
+  margin-bottom: 10px;
+  transition: all 0.2s ease-in-out;
 }
 
+.navbar-toggle .top-bar {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform-origin: 10% 10%;
+  -webkit-transform-origin: 10% 10%;
+}
+
+.navbar-toggle .middle-bar {
+  opacity: 0;
+}
+
+.navbar-toggle .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+  -webkit-transform: rotate(-45deg);
+  -webkit-transform-origin: 10% 90%;
+}
+
+/* state before animation*/
+.navbar-toggle.collapsed .top-bar {
+  transform: rotate(0);
+  -webkit-transform: rotate(0);
+}
+.navbar-toggle.collapsed .middle-bar {
+  opacity: 1;
+}
+.navbar-toggle.collapsed .bottom-bar {
+  transform: rotate(0);
+  -webkit-transform: rotate(0);
+}
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 
