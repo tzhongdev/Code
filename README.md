@@ -1,5 +1,4 @@
-# Code
-Hello World!
+# Hello World!
 
 I am creating my first website with the bootstrap framework
 
