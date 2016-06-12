@@ -32,7 +32,7 @@ body {
 }
 
 #nav-list a:hover {
-  background: #a8fcb8;
+  background: #d1ffd9;
 }
 
 #nav-list a span {
@@ -163,8 +163,7 @@ body {
     font-size: 20px;
   }
 
-  .carousel-control .icon-prev,
-  .carousel-control .icon-next {
+  .carousel-control {
     display: none;
 }
 }
