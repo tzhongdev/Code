@@ -109,6 +109,22 @@ body {
   background: transparent;
 }
 
+.carousel .carousel-control {
+  visibility: hidden;
+}
+
+.carousel:hover .carousel-control {
+  visibility: visible;
+}
+
+.carousel-control .icon-prev,
+.carousel-control .icon-next  {
+  display: block;
+  font-size: 100px;
+  font-weight: normal;
+  margin-top: -70px;
+  text-align: center;
+}
 
 /********** Large devices only **********/
 @media (min-width: 100px) {
@@ -142,7 +158,13 @@ body {
   #nav-list {
     margin: 0px;
   }
+
   #nav-list a span {
     font-size: 20px;
   }
+
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {
+    display: none;
+}
 }
