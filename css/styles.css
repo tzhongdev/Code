@@ -91,6 +91,7 @@ body {
   margin: -19px;
 }
 
+
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
   display: block;
   max-width: 100%;
@@ -126,24 +127,53 @@ body {
   text-align: center;
 }
 
+#skill {
+
+  margin-top: 0px;
+  text-align: center;
+  background-color: #2e2e2e;
+  background-image: url(../images/skill.png); /*hier richtiges bild einfügen*/
+  background-size: cover;
+
+}
+
+h2 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-family: 'Reporter LT Std';
+  font-size: 60px;
+  color: #2e2e2e;
+}
+
+.img-responsive, .myImg {
+  margin: 0 auto;
+}
+
+.row, .myRow {
+  margin: 0 100px 50px;
+}
+
+
 /********** Large devices only **********/
-@media (min-width: 100px) {
+@media (min-width: 1200px) {
 
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
-  #logo-img {
-
-  }
   /* End Header */
+
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+  h2 {
+    font-size: 1.9em;
+    margin-bottom: 60px;
+  }
 
-}
+ }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
@@ -165,5 +195,18 @@ body {
 
   .carousel-control {
     display: none;
+  }
+
+  h2 {
+    font-size: 1.2em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .row, .myRow {
+    margin: 0 40px 20px;
 }
+
+
+
 }
