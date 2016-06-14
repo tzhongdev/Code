@@ -1,5 +1,5 @@
 body {
-  font-size: 26px;
+  font-size: 36px;
   font-family: 'Proxima Nova', sans-serif;
   background-color: #e2e2e2;
 }
@@ -88,7 +88,7 @@ body {
 }
 
 #myCarousel {
-  margin: -19px;
+  margin-top: -20px;
 }
 
 
@@ -140,7 +140,7 @@ body {
 h2 {
   margin-top: 80px;
   margin-bottom: 80px;
-  font-family: 'Reporter LT Std';
+  font-family: 'Reporter LT Std', 'Proxima Nova';
   font-size: 60px;
   color: #2e2e2e;
 }
@@ -169,7 +169,7 @@ h2 {
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   h2 {
-    font-size: 1.9em;
+
     margin-bottom: 60px;
   }
 
@@ -198,8 +198,8 @@ h2 {
   }
 
   h2 {
-    font-size: 1.2em;
-    margin-top: 40px;
+    font-size: 0.7em;
+    margin-top: 20px;
     margin-bottom: 20px;
   }
 
