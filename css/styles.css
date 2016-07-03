@@ -151,6 +151,32 @@ h2 {
 }
 
 
+/** styles for contact tile **/
+
+#contact {
+
+  background-image: url(../images/contact.png);
+  text-align: center;
+  background-size: cover;
+  font-size: 48px;
+}
+
+.home-footer a:hover {
+  transform: scale(1.4);
+  color: #f15a24;
+}
+
+.home-footer a {
+  display: block;
+  text-decoration: none;
+  outline: 0;
+  color: #2b2b2b;
+  transition: all 0.2s ease-in-out;
+  font-weight: 300;
+  margin-bottom: 60px;
+}
+
+
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 
