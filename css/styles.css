@@ -158,7 +158,6 @@ h2 {
   background-image: url(../images/contact.png);
   text-align: center;
   background-size: cover;
-  font-size: 48px;
 }
 
 .home-footer a:hover {
@@ -174,6 +173,7 @@ h2 {
   transition: all 0.2s ease-in-out;
   font-weight: 300;
   margin-bottom: 60px;
+  font-size: 48px;
 }
 
 
@@ -195,6 +195,9 @@ h2 {
 
     margin-bottom: 60px;
   }
+
+  /** add smaller logos **/
+
 
  }
 
@@ -221,6 +224,7 @@ h2 {
   }
 
   h2 {
+    font-family: 'Reporter LT Std' 'Proxima Nova', sans-serif;
     font-size: 0.7em;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -228,7 +232,12 @@ h2 {
 
   .row, .myRow {
     margin: 0 40px 20px;
-}
+  }
+
+  .home-footer a {
+    font-size: 0.58em;
+    margin-bottom: 20px;
+  }
 
 
 
