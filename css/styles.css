@@ -142,6 +142,7 @@ body {
   text-align: center;
   background-image: url(../images/skill.png); /*hier richtiges bild einfügen*/
   background-size: cover;
+  padding-bottom: 20px;
 
 }
 
