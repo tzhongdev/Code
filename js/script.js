@@ -12,4 +12,6 @@ $.mobile.autoInitializePage = false;  //to stop loading text
             });
 });
 
+$('.carousel').carousel();
+
 /* Makes whole contact tile as a clickable link */
