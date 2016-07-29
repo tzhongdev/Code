@@ -12,5 +12,3 @@ $.mobile.autoInitializePage = false;  //to stop loading text
             });
 });
 
-
-/* Makes whole contact tile as a clickable link */

@@ -115,8 +115,14 @@ body {
   background-color: #e2e2e2;
 }
 
-.carousel-control.left, .carousel-control.right {
-  background: transparent;
+/**add arrow left and right from original design*/
+.carousel-control.left {
+  background: url(../images/arrow1.png) no-repeat scroll center center;
+}
+
+.carousel-control.right {
+   background: url(../images/arrow1.png) no-repeat scroll center center;
+   transform: rotate(180deg);
 }
 
 .carousel .carousel-control {
@@ -127,14 +133,7 @@ body {
   visibility: visible;
 }
 
-.carousel-control .icon-prev,
-.carousel-control .icon-next  {
-  display: block;
-  font-size: 100px;
-  font-weight: normal;
-  margin-top: -70px;
-  text-align: center;
-}
+
 
 #skill {
 
