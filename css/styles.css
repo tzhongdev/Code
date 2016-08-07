@@ -103,8 +103,6 @@ body {
 
 
 .carousel-inner>.item>img {
-  max-width: 100%;
-  line-height: 1;
   width: 100%;
 }
 
@@ -132,8 +130,6 @@ body {
 .carousel:hover .carousel-control {
   visibility: visible;
 }
-
-
 
 #skill {
 
@@ -233,6 +229,7 @@ h2 {
   .carousel-control {
     display: none;
   }
+
 
   h2 {
     font-family: myReporter, myProxima, sans-serif;

@@ -11,4 +11,3 @@ $.mobile.autoInitializePage = false;  //to stop loading text
                 $("#myCarousel").carousel('next');
             });
 });
-
